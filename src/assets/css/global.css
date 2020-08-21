@@ -35,3 +35,15 @@ body,
     visibility: hidden;
     margin-right: 30px;
 }
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}

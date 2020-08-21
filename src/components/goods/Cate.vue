@@ -234,7 +234,7 @@ export default {
         })
       })
     },
-    addCate (role) {
+    addCate () {
       this.$refs.addFormRef.validate(async valid => {
         if (!valid) return
         const { data: res } = await this.$http.post('categories', this.addForm)
